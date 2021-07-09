@@ -10,8 +10,8 @@ public class Main {
         System.out.println("I am chatty bot");
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         Date date = new Date();
-        System.out.println(formatter.format(date));
-        System.out.println("Data I was created");
+        String botDoB = formatter.format(date);
+        System.out.println("Data I was created:" + botDoB);
         System.out.println("Ask for your name?!");
     }
 }
