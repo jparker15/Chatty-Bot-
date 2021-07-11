@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Data I was created:\n" + botDoB);
         System.out.println("What is your name? :");
         String name = input.next();
-        System.out.println("Hello " + name);
+        System.out.println("Hello " + name + "-bone");
 
     }
 }
